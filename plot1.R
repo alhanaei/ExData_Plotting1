@@ -19,7 +19,7 @@ mydata1$Date<-NULL
 
 
 # open device for plot
-png(file = "plot1.png", bg = "transparent",height = 480,width = 480)
+png(file = "plot1.png",height = 480,width = 480)
 
 #plot graph 
 hist(as.numeric(paste(mydata1$Global_active_power)),col= "red",main ="Global Active Power",

@@ -20,7 +20,7 @@ mydata1$Date<-NULL
 
 # open device for plot
 
-png(file = "plot3.png", bg = "transparent",height = 480,width = 480)
+png(file = "plot3.png",height = 480,width = 480)
 
 #plot graph sub_metering_1
 plot(mydata1$Datetime, as.numeric(paste(mydata1$Sub_metering_1)),

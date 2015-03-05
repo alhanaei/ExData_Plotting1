@@ -20,7 +20,7 @@ mydata1$Date<-NULL
 
 # open device for plot
 
-png(file = "plot4.png", bg = "transparent",height = 480,width = 480)
+png(file = "plot4.png",height = 480,width = 480)
 
 #set two two rows and two columns for graphs
 par(mfrow=c(2,2))

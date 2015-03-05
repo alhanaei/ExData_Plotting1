@@ -19,7 +19,7 @@ mydata1$Date<-NULL
 
 
 # open device for plot
-png(file = "plot2.png", bg = "transparent",height = 480,width = 480)
+png(file = "plot2.png",,height = 480,width = 480)
 
 
 #plot graph
